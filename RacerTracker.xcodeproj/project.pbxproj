@@ -44,6 +44,9 @@
 		7E44D6352AC3D58D0087FF5A /* RacerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E44D6392AC3D58D0087FF5A /* RacerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerTrackerUITests.swift; sourceTree = "<group>"; };
 		7E44D63B2AC3D58D0087FF5A /* RacerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EA93ADB2AC3E00F0033B77B /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		7EA93ADE2AC4C04C0033B77B /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		7EA93ADF2AC509D70033B77B /* RaceList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RaceList; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,9 @@
 		7E44D6122AC3D58C0087FF5A = {
 			isa = PBXGroup;
 			children = (
+				7EA93ADF2AC509D70033B77B /* RaceList */,
+				7EA93ADE2AC4C04C0033B77B /* Data */,
+				7EA93ADB2AC3E00F0033B77B /* Domain */,
 				7E44D61D2AC3D58C0087FF5A /* RacerTracker */,
 				7E44D62E2AC3D58D0087FF5A /* RacerTrackerTests */,
 				7E44D6382AC3D58D0087FF5A /* RacerTrackerUITests */,
