@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7E44D61F2AC3D58C0087FF5A /* RacerTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D61E2AC3D58C0087FF5A /* RacerTrackerApp.swift */; };
-		7E44D6212AC3D58C0087FF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D6202AC3D58C0087FF5A /* ContentView.swift */; };
+		7E44D6212AC3D58C0087FF5A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D6202AC3D58C0087FF5A /* AppView.swift */; };
 		7E44D6232AC3D58D0087FF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E44D6222AC3D58D0087FF5A /* Assets.xcassets */; };
 		7E44D6262AC3D58D0087FF5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E44D6252AC3D58D0087FF5A /* Preview Assets.xcassets */; };
 		7E44D6302AC3D58D0087FF5A /* RacerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D62F2AC3D58D0087FF5A /* RacerTrackerTests.swift */; };
 		7E44D63A2AC3D58D0087FF5A /* RacerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D6392AC3D58D0087FF5A /* RacerTrackerUITests.swift */; };
 		7E44D63C2AC3D58D0087FF5A /* RacerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44D63B2AC3D58D0087FF5A /* RacerTrackerUITestsLaunchTests.swift */; };
+		7E5F91802AC52D3A00FE67E8 /* Container+Injections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F917F2AC52D3A00FE67E8 /* Container+Injections.swift */; };
+		7E5F91832AC52D6600FE67E8 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91822AC52D6600FE67E8 /* Factory */; };
+		7E5F91862AC52E1E00FE67E8 /* Pilot in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91852AC52E1E00FE67E8 /* Pilot */; };
+		7E5F91892AC53C1000FE67E8 /* NetworkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91882AC53C1000FE67E8 /* NetworkCore */; };
+		7E5F918B2AC53C1000FE67E8 /* NetworkExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F918A2AC53C1000FE67E8 /* NetworkExtension */; };
+		7E5F918D2AC53C1000FE67E8 /* Repositories in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F918C2AC53C1000FE67E8 /* Repositories */; };
+		7E5F918F2AC53C1000FE67E8 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F918E2AC53C1000FE67E8 /* Entities */; };
+		7E5F91912AC53C1000FE67E8 /* RepositoryProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91902AC53C1000FE67E8 /* RepositoryProtocol */; };
+		7E5F91932AC53C1000FE67E8 /* UseCaseProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91922AC53C1000FE67E8 /* UseCaseProtocol */; };
+		7E5F91952AC53C1000FE67E8 /* UseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91942AC53C1000FE67E8 /* UseCases */; };
+		7E5F91972AC53C1000FE67E8 /* RaceList in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5F91962AC53C1000FE67E8 /* RaceList */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		7E44D61B2AC3D58C0087FF5A /* RacerTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacerTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E44D61E2AC3D58C0087FF5A /* RacerTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerTrackerApp.swift; sourceTree = "<group>"; };
-		7E44D6202AC3D58C0087FF5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E44D6202AC3D58C0087FF5A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		7E44D6222AC3D58D0087FF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E44D6252AC3D58D0087FF5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E44D62B2AC3D58D0087FF5A /* RacerTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacerTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,8 @@
 		7E44D6352AC3D58D0087FF5A /* RacerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E44D6392AC3D58D0087FF5A /* RacerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerTrackerUITests.swift; sourceTree = "<group>"; };
 		7E44D63B2AC3D58D0087FF5A /* RacerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E5F917F2AC52D3A00FE67E8 /* Container+Injections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Injections.swift"; sourceTree = "<group>"; };
+		7E94775A2AC5422400D8FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7EA93ADB2AC3E00F0033B77B /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
 		7EA93ADE2AC4C04C0033B77B /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
 		7EA93ADF2AC509D70033B77B /* RaceList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RaceList; sourceTree = "<group>"; };
@@ -54,6 +67,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5F91952AC53C1000FE67E8 /* UseCases in Frameworks */,
+				7E5F91912AC53C1000FE67E8 /* RepositoryProtocol in Frameworks */,
+				7E5F918D2AC53C1000FE67E8 /* Repositories in Frameworks */,
+				7E5F91932AC53C1000FE67E8 /* UseCaseProtocol in Frameworks */,
+				7E5F91832AC52D6600FE67E8 /* Factory in Frameworks */,
+				7E5F91892AC53C1000FE67E8 /* NetworkCore in Frameworks */,
+				7E5F91862AC52E1E00FE67E8 /* Pilot in Frameworks */,
+				7E5F91972AC53C1000FE67E8 /* RaceList in Frameworks */,
+				7E5F918B2AC53C1000FE67E8 /* NetworkExtension in Frameworks */,
+				7E5F918F2AC53C1000FE67E8 /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +107,7 @@
 				7E44D62E2AC3D58D0087FF5A /* RacerTrackerTests */,
 				7E44D6382AC3D58D0087FF5A /* RacerTrackerUITests */,
 				7E44D61C2AC3D58C0087FF5A /* Products */,
+				7E5F91872AC53C1000FE67E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +124,8 @@
 		7E44D61D2AC3D58C0087FF5A /* RacerTracker */ = {
 			isa = PBXGroup;
 			children = (
-				7E44D61E2AC3D58C0087FF5A /* RacerTrackerApp.swift */,
-				7E44D6202AC3D58C0087FF5A /* ContentView.swift */,
+				7E94775A2AC5422400D8FC81 /* Info.plist */,
+				7E5F917B2AC52C5D00FE67E8 /* Sources */,
 				7E44D6222AC3D58D0087FF5A /* Assets.xcassets */,
 				7E44D6242AC3D58D0087FF5A /* Preview Content */,
 			);
@@ -133,6 +157,39 @@
 			path = RacerTrackerUITests;
 			sourceTree = "<group>";
 		};
+		7E5F917B2AC52C5D00FE67E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7E44D61E2AC3D58C0087FF5A /* RacerTrackerApp.swift */,
+				7E5F917E2AC52C9600FE67E8 /* AppView */,
+				7E5F917D2AC52C8400FE67E8 /* DependenciesInjection */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7E5F917D2AC52C8400FE67E8 /* DependenciesInjection */ = {
+			isa = PBXGroup;
+			children = (
+				7E5F917F2AC52D3A00FE67E8 /* Container+Injections.swift */,
+			);
+			path = DependenciesInjection;
+			sourceTree = "<group>";
+		};
+		7E5F917E2AC52C9600FE67E8 /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				7E44D6202AC3D58C0087FF5A /* AppView.swift */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
+		7E5F91872AC53C1000FE67E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +206,18 @@
 			dependencies = (
 			);
 			name = RacerTracker;
+			packageProductDependencies = (
+				7E5F91822AC52D6600FE67E8 /* Factory */,
+				7E5F91852AC52E1E00FE67E8 /* Pilot */,
+				7E5F91882AC53C1000FE67E8 /* NetworkCore */,
+				7E5F918A2AC53C1000FE67E8 /* NetworkExtension */,
+				7E5F918C2AC53C1000FE67E8 /* Repositories */,
+				7E5F918E2AC53C1000FE67E8 /* Entities */,
+				7E5F91902AC53C1000FE67E8 /* RepositoryProtocol */,
+				7E5F91922AC53C1000FE67E8 /* UseCaseProtocol */,
+				7E5F91942AC53C1000FE67E8 /* UseCases */,
+				7E5F91962AC53C1000FE67E8 /* RaceList */,
+			);
 			productName = RacerTracker;
 			productReference = 7E44D61B2AC3D58C0087FF5A /* RacerTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +290,10 @@
 				Base,
 			);
 			mainGroup = 7E44D6122AC3D58C0087FF5A;
+			packageReferences = (
+				7E5F91812AC52D6600FE67E8 /* XCRemoteSwiftPackageReference "Factory" */,
+				7E5F91842AC52E1E00FE67E8 /* XCRemoteSwiftPackageReference "Pilot" */,
+			);
 			productRefGroup = 7E44D61C2AC3D58C0087FF5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,8 +336,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E44D6212AC3D58C0087FF5A /* ContentView.swift in Sources */,
+				7E44D6212AC3D58C0087FF5A /* AppView.swift in Sources */,
 				7E44D61F2AC3D58C0087FF5A /* RacerTrackerApp.swift in Sources */,
+				7E5F91802AC52D3A00FE67E8 /* Container+Injections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +505,7 @@
 				DEVELOPMENT_TEAM = X5X7C477VG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RacerTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +535,7 @@
 				DEVELOPMENT_TEAM = X5X7C477VG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RacerTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -594,6 +670,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E5F91812AC52D6600FE67E8 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		7E5F91842AC52E1E00FE67E8 /* XCRemoteSwiftPackageReference "Pilot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Thieurom/Pilot";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E5F91822AC52D6600FE67E8 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E5F91812AC52D6600FE67E8 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		7E5F91852AC52E1E00FE67E8 /* Pilot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E5F91842AC52E1E00FE67E8 /* XCRemoteSwiftPackageReference "Pilot" */;
+			productName = Pilot;
+		};
+		7E5F91882AC53C1000FE67E8 /* NetworkCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkCore;
+		};
+		7E5F918A2AC53C1000FE67E8 /* NetworkExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkExtension;
+		};
+		7E5F918C2AC53C1000FE67E8 /* Repositories */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repositories;
+		};
+		7E5F918E2AC53C1000FE67E8 /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entities;
+		};
+		7E5F91902AC53C1000FE67E8 /* RepositoryProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RepositoryProtocol;
+		};
+		7E5F91922AC53C1000FE67E8 /* UseCaseProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCaseProtocol;
+		};
+		7E5F91942AC53C1000FE67E8 /* UseCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCases;
+		};
+		7E5F91962AC53C1000FE67E8 /* RaceList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RaceList;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E44D6132AC3D58C0087FF5A /* Project object */;
 }
