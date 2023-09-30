@@ -19,8 +19,12 @@ public struct RaceListView: View {
     
     public var body: some View {
         List {
-            ForEach(viewModel.races.indices, id: \.self) { index in
-                RaceItemView(raceItem: viewModel.races[index])
+            ForEach(viewModel.remainingRaces.indices, id: \.self) { index in
+                if index == viewModel.remainingRaces.startIndex {
+                    HeroRaceItemView(raceItem: viewModel.remainingRaces[index])
+                } else {
+                    RaceItemView(raceItem: viewModel.remainingRaces[index])
+                }
             }
         }
         .listStyle(.insetGrouped)

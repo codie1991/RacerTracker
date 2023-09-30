@@ -33,6 +33,10 @@ extension APICircuit: Circuit{
 extension APIRace: Race {
     public var circuit: Entities.Circuit { apiCircuit }
     
+    public var raceTime: TrackDateTime {
+        APITrackDateTime(date: date, time: time)
+    }
+    
     public var firstPractice: Entities.TrackDateTime { apiFirstPractice }
     
     public var secondPractice: Entities.TrackDateTime { apiSecondPractice }

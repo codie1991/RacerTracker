@@ -13,6 +13,7 @@ import UseCaseProtocol
     private let getSeasonsRacesUseCase: GetSeasonsRacesUseCaseProtocol
     
     @Published public private(set) var races: [RaceItem] = []
+    @Published public private(set) var remainingRaces: [RaceItem] = []
     @Published public private(set) var isFetchingData = false
     
     public init(getSeasonsRacesUseCase: GetSeasonsRacesUseCaseProtocol) {
@@ -28,6 +29,7 @@ import UseCaseProtocol
         do {
             races = try await getSeasonsRacesUseCase.execute(for: season)
                 .map{ RaceItem(race: $0) }
+            remainingRaces = races.filter({ $0.isRaceCompleted == false })
         } catch {
             // TODO: handle
         }
